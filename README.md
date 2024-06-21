@@ -1,6 +1,12 @@
-# Wi-Fi Connection Script
+# fuzzel-iwd
 
-A bash script for managing Wi-Fi connections using `iwctl` and `fuzzel`.
+A lightweight and user-friendly Wi-Fi connection manager using `iwctl` and `fuzzel`.
+
+## Description
+
+fuzzel-iwd is a bash script that provides a simple and intuitive interface for managing Wi-Fi connections on systems using iwd.
+
+This project was inspired by [wofi-iwd](https://codeberg.org/bagnaram/menu-iwd)
 
 ## Features
 
@@ -20,12 +26,12 @@ A bash script for managing Wi-Fi connections using `iwctl` and `fuzzel`.
 
 1. Make the script executable:
    ```
-   chmod +x wifi.sh
+   chmod +x fuzzel-iwd.sh
    ```
 
 2. Run the script:
    ```
-   ./wifi.sh
+   ./fuzzel-iwd.sh
    ```
 
 3. Use the fuzzel menu to select networks, connect, disconnect, or manage saved networks.
@@ -33,4 +39,8 @@ A bash script for managing Wi-Fi connections using `iwctl` and `fuzzel`.
 ## Notes
 
 - Requires root privileges or proper permissions to manage Wi-Fi connections
-- Tested on systems using iwd for network management
+- Designed for systems using iwd for network management
+
+## Acknowledgments
+
+This project was inspired by [wofi-iwd](https://codeberg.org/bagnaram/menu-iwd) by bagnaram.
